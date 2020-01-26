@@ -67,9 +67,7 @@ function dcwd_add_social_profiles( $profiles ) {
 		
 		// If the path is a file rather than an index within a file (file.svg#index) then the svg markup is quite different.
 		if ( false == strpos( $icon['path'], '.svg#' ) ) {
-			$profiles[ $icon['short_name'] ] = [
-			'pattern' => '<li class="social-' . $icon['short_name'] . '"><a href="%s" %s><img title="'. $icon['label'] .'" class="social-' . $icon['short_name'] . '-svg" src="' . $icon['path'] . '" /></a></li>',
-			];
+			$profiles[ $icon['short_name'] ]['pattern'] = '<li class="social-' . $icon['short_name'] . '"><a href="%s" %s><img title="'. $icon['label'] .'" class="social-' . $icon['short_name'] . '-svg" src="' . $icon['path'] . '" /></a></li>';
 		}
 	}
 
