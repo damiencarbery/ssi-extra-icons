@@ -6,7 +6,7 @@ GitHub Plugin URI: https://github.com/damiencarbery/ssi-extra-icons
 Description: Add extra icons to Simple Social Icons list.
 Author: Damien Carbery
 Author URI: https://www.damiencarbery.com
-Version: 0.2
+Version: 0.3
 */
 
 add_filter( 'simple_social_default_profiles', 'dcwd_add_social_profiles' );
