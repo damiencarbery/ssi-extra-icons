@@ -3,7 +3,7 @@ Adds extra icons to the StudioPress [Simple Social Icons plugin](https://wordpre
 
 The code is based on wiki article [Add an additional icon in version 2.0](https://github.com/studiopress/simple-social-icons/wiki/Add-an-additional-icon-in-version-2.0) and [example code](https://github.com/nickcernis/ssi-custom-icons).
 
-Icons are from [Font Awesome SVG repository](https://github.com/encharm/Font-Awesome-SVG-PNG/tree/master/black/svg) and [Noun Project](https://thenounproject.com/).
+Icons are from [Font Awesome SVG repository](https://github.com/encharm/Font-Awesome-SVG-PNG/tree/master/black/svg) and [Noun Project](https://thenounproject.com/). Free icons can also be sourced from [Simple Icons](https://simpleicons.org/).
 
 ## Reorder SSI icons
 To change the display order of the icons use the '*simple_social_default_profiles*' filter. You can also use this to remove icons that you don't need.
